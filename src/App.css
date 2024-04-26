@@ -1,0 +1,26 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Ensure no scrollbars */
+}
+
+
+body{
+  background-color: whitesmoke;
+}
+
+h1{
+  color: black;
+}
+
+li{
+  color: black
+}
