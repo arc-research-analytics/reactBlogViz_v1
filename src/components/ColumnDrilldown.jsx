@@ -41,7 +41,7 @@ const ColumnDrilldown = () => {
                 dashStyle: "Solid",
                 label: {
                   text: e.seriesOptions.name + " County rate",
-                  align: "right",
+                  align: "left",
                   style: {
                     color: "#000000",
                     fontWeight: "bold",
