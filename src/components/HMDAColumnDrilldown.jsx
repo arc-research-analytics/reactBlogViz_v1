@@ -8,7 +8,7 @@ import drilldown from "highcharts/modules/drilldown.js";
 // initialize drilldown module
 drilldown(Highcharts);
 
-const ColumnDrilldown = () => {
+const HMDAColumnDrilldown = () => {
   // get the correct data by looking at the URL query parameters;
   // example URL: column-drilldown?collectionName=HMDA&id=HMDA_DRates_County
   const { search } = useLocation();
@@ -40,7 +40,7 @@ const ColumnDrilldown = () => {
                 width: 2,
                 dashStyle: "Solid",
                 label: {
-                  text: e.seriesOptions.name + " County rate",
+                  text: e.seriesOptions.plotLineName,
                   align: "left",
                   style: {
                     color: "#000000",
@@ -77,4 +77,4 @@ const ColumnDrilldown = () => {
   );
 };
 
-export default ColumnDrilldown;
+export default HMDAColumnDrilldown;
